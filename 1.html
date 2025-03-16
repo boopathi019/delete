@@ -1,0 +1,9 @@
+<h1>one <button onclick="deleteItem(event)">Delete</button></h1>
+<h1>two <button onclick="deleteItem(event)">Delete</button></h1>
+<h1>three <button onclick="deleteItem(event)">Delete</button></h1>
+
+<script>
+function deleteItem(event) {
+    event.target.parentElement.remove();
+}
+</script>
